@@ -1,0 +1,27 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_20_2)">
+<rect width="300" height="300" rx="150" fill="#86CFFF"/>
+<rect x="152.497" y="77.4975" width="70" height="70" fill="url(#pattern0_20_2)"/>
+<rect x="138" y="112.497" width="70" height="70" transform="rotate(-45 138 112.497)" fill="url(#pattern1_20_2)"/>
+<circle cx="114" cy="188" r="30" fill="white"/>
+<path d="M141 112L88.5 142.311V81.6891L141 112Z" fill="white"/>
+<path d="M161 188L213.5 157.689V218.311L161 188Z" fill="white"/>
+<rect width="300" height="300" rx="150" fill="url(#paint0_linear_20_2)"/>
+</g>
+<defs>
+<pattern id="pattern0_20_2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_20_2" transform="scale(0.02)"/>
+</pattern>
+<pattern id="pattern1_20_2" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_20_2" transform="scale(0.02)"/>
+</pattern>
+<linearGradient id="paint0_linear_20_2" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+<stop offset="0.475962" stop-color="#4CABFF" stop-opacity="0.1"/>
+<stop offset="0.889423" stop-color="#4CABFF" stop-opacity="0.6"/>
+</linearGradient>
+<clipPath id="clip0_20_2">
+<rect width="300" height="300" rx="150" fill="white"/>
+</clipPath>
+<image id="image0_20_2" width="50" height="50" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nO3VMQqDQBRF0b+ECAki0cJa0grufw0SexfysoERLD74Jt4Drx3+rSYCwCUkPSSthb2jJpKeKhujJiLEDCFuCHFDiBtC3BDihhA3hCQf0CVsOgiZE95+nQn5yt9GiJmNkBpDWkl9wj4HRywJb7dxm38kCyFuCHFDiBtC3BDihhA3hLj5p5BG0l7YcPVtwB39ADue4Mb9IkAhAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
