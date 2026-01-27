@@ -23,12 +23,12 @@ export default function Header() {
             </li>
             <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
               <Link href="/skills" className="flex items-center">
-                Skills
+                Project
               </Link>
             </li>
             <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">
               <Link href="/projects" className="flex items-center">
-                Projects
+                Contact
               </Link>
             </li>
             <li className="flex items-center p-1 text-sm gap-x-2 text-slate-600">

@@ -12,15 +12,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-jetBrains_Mono), monospace;
+  /* Harus sama persis */
+  font-family: var(--font-jetbrains_Mono), monospace; 
 }

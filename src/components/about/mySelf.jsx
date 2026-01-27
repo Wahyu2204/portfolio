@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function MySelf() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto w-full mt-4 md:pt-2 lg:pt-4 px-6">
-      <h1 className="font-[Unbounded] text-4xl font-semibold">
+      <h1 className="font-[Unbounded] text-6xl font-semibold">
         Wahyu Andrianto Wibowo
       </h1>
 
-      <div className="text-sm leading-relaxed text-justify text-slate-400 mt-4 max-w-5xl">
+      <div className="text-sm leading-relaxed text-justify text-slate-400 mt-10 max-w-5xl">
         <div className="flex items-center gap-3">
           <Image
             src="/assets/about/me.jpeg"

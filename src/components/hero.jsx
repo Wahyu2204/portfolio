@@ -22,7 +22,8 @@ export default function Hero() {
       <div className="flex items-center gap-3 mt-4">
         <Link
           href="/projects"
-          className="px-5 py-2 border border-slate-300 rounded-full text-slate-600 font-medium hover:bg-slate-100 hover:text-black transition flex items-center gap-2"
+          className="border-2 border-black py-2 px-4 bg-white hover:bg-slate-50 transition-all 
+                      shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none"
         >
           Works -&gt;
         </Link>
@@ -32,7 +33,8 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferrer"
           width={50}
-          className="px-2 py-2 border border-slate-300 rounded-full text-slate-600 font-medium hover:bg-slate-100 hover:text-black transition flex items-center gap-2"
+          className="border-2 border-black py-2 px-4 bg-white hover:bg-slate-50 transition-all 
+                      shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none"
         >
           <FaGithub className="text-2xl" />
         </Link>

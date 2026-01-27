@@ -1,4 +1,3 @@
-// components/SkillCard.jsx
 export default function TechStackCard({ title, items }) {
   return (
     <div className="mb-10">
@@ -8,7 +7,7 @@ export default function TechStackCard({ title, items }) {
       </h3>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {items.map((item, index) => (
           <div
             key={index}

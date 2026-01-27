@@ -2,7 +2,7 @@ import {
   FaLaravel,
 } from "react-icons/fa";
 
-import { SiSupabase, SiMysql } from "react-icons/si"; "react-icons/si";
+import { SiSupabase, SiMysql } from "react-icons/si";
 
 export const beSkills = [
   {

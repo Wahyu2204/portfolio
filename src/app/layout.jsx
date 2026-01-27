@@ -2,7 +2,7 @@ import { JetBrains_Mono, Archivo_Black, Unbounded } from "next/font/google";
 import "./globals.css";
 
 const jetBrains_Mono = JetBrains_Mono({
-  variable: "--font-jetBrains_Mono",
+  variable: "--font-jetbrains_Mono",
   subsets: ["latin"],
 });
 
