@@ -5,7 +5,7 @@ import SkillCard from "@/components/card/techStackCard";
 
 export default function TechStack() {
   return (
-    <main className="min-h-screen pt-2 md:pt-4 px-6 pb-20 max-w-5xl mx-auto">
+    <main className="h-screen flex flex-col justify-center px-6 max-w-5xl mx-auto">
       {/* Header Halaman */}
       <h1 className="text-5xl md:text-5xl font-black text-start mb-10 uppercase tracking-tighter">
         Tech <span className="text-stroke-2">Stack</span>

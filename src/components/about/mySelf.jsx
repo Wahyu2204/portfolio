@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import CV from "@/components/about/cv";
+
 export default function MySelf() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto w-full mt-4 md:pt-2 lg:pt-4 px-6">
@@ -53,6 +55,7 @@ export default function MySelf() {
           development.
         </p>
       </div>
+      <CV />
     </div>
   );
 }

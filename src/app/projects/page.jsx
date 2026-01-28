@@ -1,23 +1,16 @@
-import Images from "next/image";
+import { Projects } from "@/lib/projects";
+import ProjectCard from "@/components/card/projectCard";
 
-export default function Projects() {
+export default function Project() {
   return (
-    <div className="grow flex flex-col items-center max-w-7xl mx-auto w-full mt-4">
-      <p className="text-sm font-semibold tracking-wider uppercase text-slate-600 mb-4">
-        [ PROJECTS ]
-      </p>
+    <main className="h-screen pt-30 md:pt-48 px-6 pb-20 max-w-5xl mx-auto">
+      {/* Header Halaman */}
+      <h1 className="text-5xl md:text-5xl font-black text-start mb-10 uppercase tracking-tighter">
+        Projects
+      </h1>
 
-      <Images
-        src="/assets/projects.png"
-        alt="Wazys..."
-        width={850}
-        height={850}
-        className="rounded-lg"
-      />
-
-      <p className="text-sm font-semibold tracking-wider uppercase italic text-slate-600 mt-4">
-        {'"Welcome to my creative space — let\'s collaborate."'}
-      </p>
-    </div>
+      {/* Render 3 Kategori */}
+      <ProjectCard items={Projects} />
+    </main>
   );
 }
