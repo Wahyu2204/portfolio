@@ -1,7 +1,8 @@
+import IconMapper from "@/components/icon-mapper";
+
 export default function TechStackCard({ title, items }) {
   return (
     <div className="mb-10">
-      {/* Judul Category ala Manga (Background Hitam, Teks Putih) */}
       <h3 className="text-2xl font-black bg-black text-white inline-block px-4 py-1 mb-6 rotate-1">
         {title}
       </h3>
@@ -16,16 +17,15 @@ export default function TechStackCard({ title, items }) {
           >
             <div className="flex items-center gap-4">
               {/* Icon Container */}
-              <div className="text-3xl">{item.icon}</div>
+              <div className="text-3xl">
+                <IconMapper name={item.iconName} />
+              </div>
 
               {/* Text Info */}
               <div>
                 <h4 className="font-bold font-mono text-lg leading-none">
                   {item.name}
                 </h4>
-                <p className="text-xs text-gray-600 font-mono mt-1">
-                  {item.desc}
-                </p>
               </div>
             </div>
           </div>

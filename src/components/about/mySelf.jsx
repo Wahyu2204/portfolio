@@ -5,11 +5,11 @@ import CV from "@/components/about/cv";
 export default function MySelf() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto w-full mt-4 md:pt-2 lg:pt-4 px-6">
-      <h1 className="font-[Unbounded] text-6xl font-semibold">
-        Wahyu Andrianto Wibowo
+      <h1 className="animate-in fade-in slide-in-from-bottom-4 duration-500 ease-out text-4xl font-semibold text-center">
+        I&apos;m Wahyu Andrianto Wibowo
       </h1>
 
-      <div className="text-sm leading-relaxed text-justify text-slate-400 mt-10 max-w-5xl">
+      <div className="animate-in fade-in slide-in-from-bottom-8 duration-500 delay-100 fill-mode-both ease-outtext-sm leading-relaxed text-justify text-slate-400 mt-4 max-w-7xl">
         <div className="flex items-center gap-3">
           <Image
             src="/assets/about/me.jpeg"
@@ -55,7 +55,9 @@ export default function MySelf() {
           development.
         </p>
       </div>
-      <CV />
+      <div className="animate-in fade-in slide-in-from-bottom-8 duration-500 delay-300 fill-mode-both ease-out flex items-center gap-3 mt-4">
+        <CV />
+      </div>
     </div>
   );
 }
