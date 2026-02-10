@@ -1,23 +1,28 @@
 import Image from "next/image";
-
 import CV from "@/components/about/cv";
 
 export default function MySelf() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center max-w-7xl mx-auto w-full mt-4 md:pt-2 lg:pt-4 px-6">
-      <h1 className="animate-in fade-in slide-in-from-bottom-4 duration-500 ease-out text-4xl font-semibold text-center">
+    <div className="min-h-screen flex flex-col items-center justify-start md:justify-center max-w-7xl mx-auto w-full px-6 pt-32 pb-20 md:pt-0 md:pb-0">
+      <h1
+        className="animate-in fade-in slide-in-from-bottom-4 duration-500 ease-out 
+                     text-3xl sm:text-4xl md:text-6xl font-black text-center tracking-tight leading-tight"
+      >
         I&apos;m Wahyu Andrianto Wibowo
       </h1>
 
-      <div className="animate-in fade-in slide-in-from-bottom-8 duration-500 delay-100 fill-mode-both ease-outtext-sm leading-relaxed text-justify text-slate-400 mt-4 max-w-7xl">
-        <div className="flex items-center gap-3">
+      <div className="animate-in fade-in slide-in-from-bottom-8 duration-500 delay-100 fill-mode-both ease-out text-sm leading-relaxed text-justify text-slate-400 mt-4 max-w-7xl">
+        
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
           <Image
             src="/assets/about/me.jpeg"
             alt="Wahyu Andrianto Wibowo"
             width={200}
             height={200}
-            className="rounded-lg"
+            // shrink-0 = Anti Gepeng di Desktop
+            className="rounded-lg shrink-0 w-40 h-40 md:w-[200px] md:h-[200px] object-cover"
           />
+
           <div>
             <p>
               I am a UI/UX Designer and Frontend Engineer focused on developing
@@ -55,6 +60,7 @@ export default function MySelf() {
           development.
         </p>
       </div>
+
       <div className="animate-in fade-in slide-in-from-bottom-8 duration-500 delay-300 fill-mode-both ease-out flex items-center gap-3 mt-4">
         <CV />
       </div>

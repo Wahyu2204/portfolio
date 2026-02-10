@@ -23,7 +23,7 @@ export default async function TechStack() {
   const toolsSkills = skills.filter((s) => s.category === "tools");
 
   return (
-    <main className="min-h-[80vh] flex flex-col justify-center px-6 max-w-5xl mx-auto py-20">
+    <main className="min-h-screen flex flex-col justify-center px-4 max-w-5xl mx-auto py-20">
       
       {/* Header Tetap Sama */}
       <h1 className="animate-in fade-in slide-in-from-bottom-4 duration-500 ease-out text-5xl md:text-5xl font-black text-start mb-10 uppercase tracking-tighter">
