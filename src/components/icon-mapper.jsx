@@ -7,7 +7,7 @@ import {
   FaLinkedin,
   FaFigma,
 } from "react-icons/fa";
-import { SiTailwindcss, SiMysql, SiGmail , SiSupabase, SiPostman} from "react-icons/si";
+import { SiTailwindcss, SiMysql, SiGmail , SiSupabase, SiPostman, SiPostgresql, SiShadcnui} from "react-icons/si";
 
 import { RiNextjsFill } from "react-icons/ri";
 
@@ -26,6 +26,8 @@ const iconMap = {
   SiSupabase,
   SiPostman,
   FaFigma,
+  SiPostgresql,
+  SiShadcnui,
 };
 
 export default function IconMapper({ name, className }) {
